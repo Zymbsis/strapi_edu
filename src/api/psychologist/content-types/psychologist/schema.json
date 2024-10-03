@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "psychologists",
+  "info": {
+    "singularName": "psychologist",
+    "pluralName": "psychologists",
+    "displayName": "psychologists",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "avatar_url": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "price_per_hour": {
+      "type": "integer"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "license": {
+      "type": "string"
+    },
+    "specialization": {
+      "type": "string"
+    },
+    "initial_consultation": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reviews.reviews"
+    },
+    "test": {
+      "type": "component",
+      "repeatable": true,
+      "component": "test.test"
+    }
+  }
+}

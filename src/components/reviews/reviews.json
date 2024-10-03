@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_reviews_reviews",
+  "info": {
+    "displayName": "reviews",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reviewer": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}
